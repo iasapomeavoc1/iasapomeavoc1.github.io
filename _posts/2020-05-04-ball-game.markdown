@@ -1,0 +1,23 @@
+---
+layout: post
+title: Ball-Game
+date: 2020-05-04 00:00:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: ball-game-primary.jpg # Add image post (optional)
+tags: [Arduino, Arcade, Personal] # add tag
+---
+
+Sometime in the summer of 2019, I stumbled upon a game known as <a href="https://en.wikipedia.org/wiki/Ice_Cold_Beer" target="_blank">Ice Cold Beer</a> in an arcade bar in San Francisco. It was a simple game, but very, very frustrating. After shelling out all my coins there and having to retreat home for the night, I got the bright idea to recreate the game at home so that I could practice and be a pro by the time I returned (spoiler: I haven't gone back since)
+
+### Architecture Planning
+
+### Return Mechanism
+
+### Target Sensing
+
+### Code
+
+### Current Form
+
+
+

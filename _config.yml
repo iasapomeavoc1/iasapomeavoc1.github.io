@@ -9,7 +9,11 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Roger Lo # add your name
 author-img: roger-headshot.jpg # add your photo
-about-author: I like building cool things.  # add description
+about-author: I like building cool things. 
+education: B.S. Mechanical Engineering MIT 2016 # add description
+current-job: Senior Mechanical Engineer
+job-img: cruise-logo.jpg # add your photo
+job-url: https://www.getcruise.com/
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github:  # add your Github handle
