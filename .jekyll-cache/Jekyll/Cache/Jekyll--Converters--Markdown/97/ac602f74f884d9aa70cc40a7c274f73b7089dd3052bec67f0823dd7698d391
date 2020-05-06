@@ -1,0 +1,21 @@
+I"�<p>I’ve seen a great deal of progress in quadruped robotics over the years, from BigDog to SpotMini, and now widespread development at universities like the MIT Mini Cheetah or Stanford Doggo. I’ve always wanted to try my hand at developing a similiar but smaller, low cost robot for home enviornments. More specifically, I wanted to try and recreate the experience of a pet, with robotics.</p>
+
+<hr />
+
+<h3 id="mechanical-design">Mechanical Design</h3>
+<p>I designed all custom parts in Solidworks, which incudes the leg mechanisms, brackets, and body platform. The legs are 3D printed in black PLA, and the body is a ABS plate that was cut and drilled by hand.</p>
+
+<p><img align="right" width="300" src="/assets/img/robo-doggo-1.jpg" />
+<img align="right" width="300" src="/assets/img/robo-doggo-2.jpg" /></p>
+
+<p>All four legs are identical, and are driven by three LX16-A servos. Two servos directly control the joint, while the third controls the last joint through a belt and pulley. 
+<br /><br />
+<img align="right" width="300" src="/assets/img/robo-doggo-primary.jpg" />
+<br /><br /></p>
+
+<hr />
+
+<h3 id="ik-control">IK Control</h3>
+
+<h3 id="ball-tracking-control">Ball-Tracking Control</h3>
+:ET

@@ -1,0 +1,29 @@
+I"�
+<p>Sometime in the summer of 2019, I stumbled upon a game known as <a href="https://en.wikipedia.org/wiki/Ice_Cold_Beer" target="_blank">Ice Cold Beer</a> in an arcade bar in San Francisco. It was a simple game, but very, very frustrating. After shelling out all my coins there and having to retreat home for the night, I got the bright idea to recreate the game at home so that I could practice and be a pro by the time I returned (spoiler: I haven’t gone back since)</p>
+
+<h3 id="development">Development</h3>
+
+<p><img align="right" height="400" src="/assets/img/ball-game-1.gif" />
+With some research, I figured out the actual arcade game’s mechanism, which was two lead screws driven by motors and a bar mechanism on a pivoting linkage. That seemed too complex for what I wanted to build, so I opted for using fishing line and pulleys, with hobby grade servos. Window shade pulleys did the trick, and rubber grommets snugly fit on the servo horn while providing a track and enough friction to pull the fishing line.</p>
+
+<p>Once I showed that worked out pretty well, I looked into making the ball return mechanism - a few tracks of wood that would guide the ball back to central return area, and a small linear motor to push the ball back into play. Detecting the ball had returned was hard. Initially I tried a circuit that would complete when the steel ball fell onto two metal tracks, but was unable to maintain continuity for a reliable enough period to detect the ball accurately. Then, I tried using tiny push button switches, but the ball wasn’t heavy enough and there wasn’t enough room to create a lever arm. I settled on using an LED and photoresistor, which worked easily and could be applied to the target sensing as well.</p>
+
+<p>Designing and cutting out the panels to enclose the game was fairly straightforward. I used 3/8” thick polystyrene sheets that were cheap, lightweight and easy to cut. The game board and base are wood LDF boards, which was difficult to get clean holes cutout - I’d eventually want to update this to a laser cut plastic sheet if possible.</p>
+
+<p>An Arduino Mega runs the game, controlling the servos, LED’s and LCD screen and taking input from the start button, toggle switches and photoresistors. Eventually I want to add a speaker and play some fun 8bit tunes during gameplay.</p>
+
+<p><br clear="all" /><br /></p>
+
+<p><img align="left" height="350" src="/assets/img/ball-game-1.jpg" /></p>
+
+<p><img align="right" height="350" src="/assets/img/ball-game-2.jpg" /></p>
+
+<p><br clear="all" /><br /></p>
+
+<h3 id="example-gameplay">Example Gameplay</h3>
+
+<p><img align="left" height="350" src="/assets/img/ball-game-2.gif" /></p>
+
+<p><br clear="all" /><br /></p>
+
+:ET
