@@ -18,8 +18,9 @@ layout: default
         <a href="{{site.job-url}}/"><img src="{{site.baseurl}}/assets/img/{% if site.job-img %}{{site.job-img}}{% endif %}" ></a>
       </div>
 
-      <a href="{{site.baseurl}}/assets/resume2020.pdf" target="_blank">Resume</a>
-
+      <div class="job-image">
+        <a href="{{site.baseurl}}/assets/{% if site.resume-url %}{{site.resume-url}}{% endif %}"><img src="{{site.baseurl}}/assets/img/{% if site.resume-img %}{{site.resume-img}}{% endif %}" alt="Resume"></a>
+      </div>
 
     </div>
   </header> <!-- End Header -->
