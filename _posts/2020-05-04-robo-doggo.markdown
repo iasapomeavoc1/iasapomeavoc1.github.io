@@ -35,6 +35,7 @@ The latest, printed design has split halves on each of the leg links, to allow f
 <img align="center" height="400"  src="{{site.baseurl}}/assets/img/robo-doggo-1.gif">
 <img align="center" height="400"  src="{{site.baseurl}}/assets/img/robo-doggo-2.gif">
 <br clear="all"/><br/>
+<img align="center" height="400"  src="{{site.baseurl}}/assets/img/robo-doggo-5.gif">
 
 ***
 
