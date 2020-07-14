@@ -2,7 +2,7 @@
 layout: post
 title: Robo-Doggo
 date: 2020-05-04 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional) 
+description: Low cost robotic quadrupod
 img: robo-doggo-primary.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Robotics, 3D-Printing, Raspberry Pi, Personal]

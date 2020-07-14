@@ -1,0 +1,45 @@
+I"s<p>During the 2020 pandemic, I bought a bike. As I became a full fledged bike enthusiast, I started looking at all the add-ons I could fit up my ride with. It shocked me how expensive bike computers were, while being a fairly dumb piece of electronics. Since I had some extra Pi’s laying around, and wanting to dust off the 3D printer, I started designing up my own, with a couple extra features you won’t see off the shelf.</p>
+
+<p>My system includes a Raspberry Pi, 3.5” touchscreen LCD display, a GPS module, integrated camera, an Arduino Mini, and a Li-ion battery with power regulator. There is a sealed 12 pin connector to relay signals to and from other features on the bike, including an IMU, rear blinker lights, and hall-effect sensors to measure speed and cadence. The total cost comes at around $130, which was totally worth the fun designing and building this.</p>
+
+<p>Note, this build is still in progress, so you won’t see completed pictures just yet.</p>
+
+<hr />
+
+<h3 id="mechanical-design">Mechanical Design</h3>
+
+<p>After defining the scope and features of the system, I shopped around for electronics parts that would be necessary to integrate. The first step was then to start laying all the components out in CAD, to see what would be a good packaging arrangement.</p>
+
+<p><img align="left" width="250" src="/assets/img/bc-1.jpg" />
+<img align="left" width="250" src="/assets/img/bc-2.jpg" /></p>
+
+<p>I wanted to keep the package thin and low to the bike handlebar, and opted to package some components on either side of the middle bar that I would be clamping the system to.
+Once the sub components were roughly in position, I used a master modeling method within the assembly to create the structures necessary to mount and enclose them all. Happy with how it fit, I started my first print. 
+<br /><br /></p>
+
+<p><img style="margin: auto;" width="300" src="/assets/img/bc-10.jpg" />
+<img align="center" width="300" src="/assets/img/bc-7.jpg" /></p>
+
+<p>Engineering is an iterative process, and luckily the methods I was using to design and build are considered “rapid” prototyping. In this first build, I was immediately struck with how large the system looked on the bike, and potentially how much drag it would induce in my riding. I started immediately on a second packaging design after laying out this print.</p>
+
+<p><br /><br /></p>
+
+<p><img align="right" width="300" src="/assets/img/bc-11.jpg" />
+<img align="right" width="300" src="/assets/img/bc-3.jpg" />
+<img align="right" width="300" src="/assets/img/bc-4.jpg" />
+<img align="right" width="300" src="/assets/img/bc-5.jpg" /> Exploded View. 
+<img align="right" width="300" src="/assets/img/bc-6.jpg" /> The lower enclosure is the most complex part, having the most interfaces to other components, and requires about 11 hours to print with the settings I’m using.</p>
+
+<p><img align="right" width="300" src="/assets/img/bc-8.jpg" /> Most subcomponents of the system laid out.</p>
+
+<p><img align="right" width="300" src="/assets/img/bc-9.jpg" /> The enclosure sealing surface is at an angle to the screen sealing surface. I prioritize the larger enclosure sealing surface to be flat, which resulted in the other surfaces to come out a bit jagged due to the resolution of the printer. I might try sanding down a bit, otherwise I could just use a gap filling silicone adhesive to seal the uneven surfaces.</p>
+
+<p><img align="right" width="300" src="/assets/img/bc-12.jpg" /> To clamp the computer to the bike, I designed a snap fit pincer type mount that would hook into depressions in the base of the enclosure. This is yet to be physically tested, but hopefully it provides a sturdy connection while also being easy to remove the computer from the hold by hand.</p>
+
+<p>I designed all custom parts in Solidworks, which incudes the enclosures, bike clamps, internal mounting brackets, and the layout of electrical components on the internal PCB. The parts were printed in blue ABS, and will be sanded, painted and seal coated later. The electrical components are hand soldered to a through hole breadboard PCB.</p>
+
+<h3 id="electrical-design">Electrical Design</h3>
+
+<h3 id="software-design">Software Design</h3>
+
+:ET

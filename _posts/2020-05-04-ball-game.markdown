@@ -2,7 +2,7 @@
 layout: post
 title: Ball-Game
 date: 2020-05-04 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+description: Knock-off arcade game :)
 img: ball-game-primary.jpg # Add image post (optional)
 tags: [Arduino, Arcade, Personal] # add tag
 ---
