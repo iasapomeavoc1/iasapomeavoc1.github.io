@@ -44,12 +44,24 @@ Engineering is an iterative process, and luckily the methods I was using to desi
 <br/><br/>
 <img style="display: block;max-width: 100%;height: auto;margin: auto;float: none!important;" width="800"  src="{{site.baseurl}}/assets/img/bc-8.jpg"> <center>Most subcomponents of the system laid out.</center>
 <br/><br/>
-<img align="right" width="300"  src="{{site.baseurl}}/assets/img/bc-9.jpg"> The enclosure sealing surface is at an angle to the screen sealing surface. I prioritize the larger enclosure sealing surface to be flat, which resulted in the other surfaces to come out a bit jagged due to the resolution of the printer. I might try sanding down a bit, otherwise I could just use a gap filling silicone adhesive to seal the uneven surfaces.
+<img align="right" width="350"  src="{{site.baseurl}}/assets/img/bc-9.jpg"> The enclosure sealing surface is at an angle to the screen sealing surface. I prioritize the larger enclosure sealing surface to be flat, which resulted in the other surfaces to come out a bit jagged due to the resolution of the printer. I might try sanding down a bit, otherwise I could just use a gap filling silicone adhesive to seal the uneven surfaces.
+
+To clamp the computer to the bike, I designed a snap fit pincer type mount that would hook into depressions in the base of the enclosure. This provides a sturdy connection while also being easy to remove the computer from the hold by hand.
 <br/><br/>
-<img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-12.jpg"> To clamp the computer to the bike, I designed a snap fit pincer type mount that would hook into depressions in the base of the enclosure. This is yet to be physically tested, but hopefully it provides a sturdy connection while also being easy to remove the computer from the hold by hand.
 
-I designed all custom parts in Solidworks, which incudes the enclosures, bike clamps, internal mounting brackets, and the layout of electrical components on the internal PCB. The parts were printed in blue ABS, and will be sanded, painted and seal coated later. The electrical components are hand soldered to a through hole breadboard PCB. 
+<img align="left" width="320"  src="{{site.baseurl}}/assets/img/bc-12.jpg">
+<br/><br/>
 
+<img align="right" width="350"  src="{{site.baseurl}}/assets/img/bc-10.jpg"> 
+I designed all custom parts in Solidworks, including the enclosures, bike clamps, internal mounting brackets, and the layout of electrical components on the internal PCB. The parts were printed in blue ABS, and will be sanded, painted and seal coated later. The electrical components are hand soldered to a through hole breadboard PCB. 
+
+<img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-13.jpg"> 
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
 <br/><br/>
 
 ***
@@ -61,6 +73,9 @@ A 2200 mAh battery was used for this system. Summing the current consumption of 
 I'm using standard USB connectors to deliver power and send data. I cut open off the shelf USB cables to reduce the packaging size of the protruding connector and get the right cable length for all the intenral connections. The Arduino will send info to the Raspberry Pi via a serial connection.
 
 An internal harness will be built up to route the wall mounted connector pins to the various pins on the Arduino. 
+
+
+<br/><br/>
 
 ***
 
