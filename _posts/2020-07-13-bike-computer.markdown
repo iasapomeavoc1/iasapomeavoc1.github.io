@@ -51,12 +51,32 @@ To clamp the computer to the bike, I designed a snap fit pincer type mount that 
 
 <img align="left" width="320"  src="{{site.baseurl}}/assets/img/bc-12.jpg">
 <br/><br/>
+<br/><br/>
 
 <img align="right" width="350"  src="{{site.baseurl}}/assets/img/bc-10.jpg"> 
-I designed all custom parts in Solidworks, including the enclosures, bike clamps, internal mounting brackets, and the layout of electrical components on the internal PCB. The parts were printed in blue ABS, and will be sanded, painted and seal coated later. The electrical components are hand soldered to a through hole breadboard PCB. 
+I designed all custom parts in Solidworks, including the enclosures, bike clamps, internal mounting brackets, and the layout of electrical components on the internal PCB. The parts were printed in blue ABS, and were finished later. The electrical components are hand soldered to a through hole breadboard PCB. 
 
 <img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-13.jpg"> 
 
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+
+The finishing process for the parts consisted of sanding down the fresh 3D printed surface between 220 and 600 grit, applying primer, repeating the sanding, applying bondo, repeating the sanding, and then doing two coats of the final paint. I used a glossy gray spray paint for the final coat, which I think came out quite nicely, and matches with teh color scheme of my bike.
+
+<img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-16.jpg"> 
+<img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-17.jpg"> 
+<img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-18.jpg"> 
+<br/><br/>
+<img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-19.jpg"> 
+<img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-20.jpg"> 
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
 <br/><br/>
 <br/><br/>
 <br/><br/>
@@ -68,11 +88,17 @@ I designed all custom parts in Solidworks, including the enclosures, bike clamps
 
 ### Electrical Design
 
+<img align="right" width="300"  src="{{site.baseurl}}/assets/img/bc-14.jpg"> 
+
 A 2200 mAh battery was used for this system. Summing the current consumption of the Pi, Arduino, camera and LCD screen, this gives over 2 hours of continuous use before recharge. With the brake lights on, this could be reduced to 1 hour. 
 
 I'm using standard USB connectors to deliver power and send data. I cut open off the shelf USB cables to reduce the packaging size of the protruding connector and get the right cable length for all the intenral connections. The Arduino will send info to the Raspberry Pi via a serial connection.
 
-An internal harness will be built up to route the wall mounted connector pins to the various pins on the Arduino. 
+<img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-15.jpg"> 
+
+A few wiring harnesses were made to pass power and signals across different boards and ports. I made sure to add some hot glue at the connector ends to strain relieve the wires from the connectors, and give enough slack for service loops and assembly. 
+
+The camera connects to the raspberry pi via a flat flex cable, which I had to crease a few times to get the correct routing. Its adhered to the unused HDMI port with VHB - we'll see how this cable holds up over time.
 
 
 <br/><br/>
