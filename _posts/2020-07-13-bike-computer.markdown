@@ -110,5 +110,7 @@ The camera connects to the raspberry pi via a flat flex cable, which I had to cr
 
 An interface for a bike info display showing speed, cadence, angle, acceleration and elevation will need to be developed. I also want to integrate a GPS navigation system to be able to map routes around the 7x7 area of San Francisco. All recordable biking stats and info can be logged to a server when the pi is on a Wifi network, and a site to showcase the stats can be built. Other software functionality can be rolled in later as well.
 
+<img style="display: block;max-width: 100%;height: auto;margin: auto;float: none!important;" width="800"  src="{{site.baseurl}}/assets/img/bc-1.gif"> <center>Here's a quick video testing out the camera functionality.
+</center>
 
 
