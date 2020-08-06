@@ -92,15 +92,25 @@ The finishing process for the parts consisted of sanding down the fresh 3D print
 
 A 2200 mAh battery was used for this system. Summing the current consumption of the Pi, Arduino, camera and LCD screen, this gives over 2 hours of continuous use before recharge. With the brake lights on, this could be reduced to 1 hour. 
 
+
 I'm using standard USB connectors to deliver power and send data. I cut open off the shelf USB cables to reduce the packaging size of the protruding connector and get the right cable length for all the intenral connections. The Arduino will send info to the Raspberry Pi via a serial connection.
 
-<img align="left" width="300"  src="{{site.baseurl}}/assets/img/bc-15.jpg"> 
-
 A few wiring harnesses were made to pass power and signals across different boards and ports. I made sure to add some hot glue at the connector ends to strain relieve the wires from the connectors, and give enough slack for service loops and assembly. 
+
+<img align="right" width="300"  src="{{site.baseurl}}/assets/img/bc-21.jpg"> 
+
+Shown in the right image is the IMU unit on the bottom, the Neo-Pixel light panel on the top, and one of the hall effect sensors on the right.
 
 The camera connects to the raspberry pi via a flat flex cable, which I had to crease a few times to get the correct routing. Its adhered to the unused HDMI port with VHB - we'll see how this cable holds up over time.
 
 
+<img align="left" width="310"  src="{{site.baseurl}}/assets/img/bc-15.jpg"> 
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
 <br/><br/>
 
 ***
@@ -108,9 +118,30 @@ The camera connects to the raspberry pi via a flat flex cable, which I had to cr
 
 ### Software Design
 
-An interface for a bike info display showing speed, cadence, angle, acceleration and elevation will need to be developed. I also want to integrate a GPS navigation system to be able to map routes around the 7x7 area of San Francisco. All recordable biking stats and info can be logged to a server when the pi is on a Wifi network, and a site to showcase the stats can be built. Other software functionality can be rolled in later as well.
+I've started on a touchscreen interface for bike info display. It shows speed and pedal cadence based on the hall sensors, as well as indicators on the blinker state, and the current time. I also have buttons to start/stop the logging of all bike data (including GPS and IMU) as well as a program exit button.
 
-<img style="display: block;max-width: 100%;height: auto;margin: auto;float: none!important;" width="800"  src="{{site.baseurl}}/assets/img/bc-1.gif"> <center>Here's a quick video testing out the camera functionality.
-</center>
+<img align="right" width="310"  src="{{site.baseurl}}/assets/img/bc-25.jpg"> 
+<img align="right" width="310"  src="{{site.baseurl}}/assets/img/bc-24.jpg"> 
+<img align="right" width="310"  src="{{site.baseurl}}/assets/img/bc-23.jpg"> 
+<img align="right" width="310"  src="{{site.baseurl}}/assets/img/bc-26.jpg"> 
+
+
+Concurrently, the camera up front records continuous video as the program is running, storing them for viewing later if needed. The next steps are to incorporate the GPS data and road map data to display my location on a pannable map. More to come.
+
+<img align="right" width="310"  src="{{site.baseurl}}/assets/img/bc-22.jpg"> 
+<img align="left" width="310"  src="{{site.baseurl}}/assets/img/bc-1.gif"> 
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+
 
 
